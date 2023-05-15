@@ -1,5 +1,6 @@
 %Scatter3 was written by Aayush and William on June 15, 2022
 %It plots the path of a photon travelling through a cloud layer extending from y =0 to y=ycl.
+%y is the optical thickness of the cloud
 %The photon scattering is found using either Isotropic, Raleigh, or Max Forward Scattering phase functions.
 clear
 N=input('Input Scattering type: 0 = Isotropic, 1 = Raleigh, 2 = Max Forward = '); %asking the user to enter which type of scattering
